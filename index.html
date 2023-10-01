@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta Charset='UTF-8'/>
+        <title>AK's Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+            <!-- <video autoplay loop muted plays-inline class="back-video" src="./assets/Falling Dollars Background.webm" type="video/webm"></video> -->
+            <div class="converter">
+                <h1 class="animate-character">Currency Converter</h1>
+                <div>
+                    <div class="input-group">
+                        <label for="amount">Enter Amount (INR):</label>
+                        <input type="number" id="amount" placeholder="Enter amount in INR">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="currency">Select Currency:</label>
+                    <select id="currency">
+                        <option value="USD">US Dollar (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="RUB">Russian Ruble (RUB)</option>
+                        <option value="GBP">British Pound (GBP)</option>
+                        <option value="CNY">Chinese Yuan (CNY)</option>
+                        <option value="AED">UAE Dirham (AED)</option>
+                        <option value="LKR">Sri Lankan Ruppee (LKR)</option>
+                        <option value="JPY">Japanese Yen (JPY)</option>
+                    </select>
+                </div>
+                    <button id="convert">Convert</button>
+                    <div id="result"></div>
+            </div>
+    <script src="index.js"></script>
+    </body>
+</html>
